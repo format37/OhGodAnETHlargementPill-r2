@@ -11,6 +11,7 @@ sudo chmod +x ./OhGodAnETHlargementPill-r2
 ```
 sudo ./OhGodAnETHlargementPill-r2
 ```
+then stop Ctrl+C and install systemd..
 ## Systemd install
 ```
 sudo nano /etc/systemd/system/ethpill.service
@@ -44,3 +45,6 @@ With the use of --revA, you can specify which device should be fed our senior so
 ./OhGodAnETHlargementPill-r2 --revA 0,3,4   
 ```
 Be sure to leave ETHlargement running in the background, so your NVIDIA noodle can *aldente*.
+```
+sudo systemctl enable ethpill
+```
