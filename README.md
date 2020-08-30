@@ -1,10 +1,20 @@
 # OhGodAnETHlargementPill-r2   
+
+## installation
    
 cd /opt/   
 sudo mkdir ./tabletka   
 cd ./tabletka/   
 sudo wget https://github.com/format37/OhGodAnETHlargementPill-r2/blob/master/OhGodAnETHlargementPill-r2   
 sudo chmod +x ./OhGodAnETHlargementPill-r2   
+
+## run   
+   
+sudo ./OhGodAnETHlargementPill-r2
+   
+## systemd install   
+
+sudo nano /etc/systemd/system/ethpill.service
    
 ## Troubleshooting   
    
@@ -12,6 +22,6 @@ Does your ETHlargement not work as expected? You're likely running an older memo
    
 With the use of --revA, you can specify which device should be fed our senior solution. If, for example, GPU 0, 3 and 4 aren't the young studs you thought they were, feed them with the following commands:   
    
-./OhGodAnETHlargementPill --revA 0,3,4   
+./OhGodAnETHlargementPill-r2 --revA 0,3,4   
    
 Be sure to leave ETHlargement running in the background, so your NVIDIA noodle can *aldente*. 
