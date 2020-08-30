@@ -4,7 +4,7 @@
 cd /opt/
 sudo mkdir ./tabletka
 cd ./tabletka/
-sudo wget https://github.com/format37/OhGodAnETHlargementPill-r2/blob/master/OhGodAnETHlargementPill-r2
+sudo wget https://github.com/format37/OhGodAnETHlargementPill-r2/raw/master/OhGodAnETHlargementPill-r2
 sudo chmod +x ./OhGodAnETHlargementPill-r2
 ```
 ## Systemd install
