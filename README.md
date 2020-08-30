@@ -7,11 +7,6 @@ cd ./tabletka/
 sudo wget https://github.com/format37/OhGodAnETHlargementPill-r2/blob/master/OhGodAnETHlargementPill-r2
 sudo chmod +x ./OhGodAnETHlargementPill-r2
 ```
-## Run
-```
-sudo ./OhGodAnETHlargementPill-r2
-```
-then stop Ctrl+C and install systemd..
 ## Systemd install
 ```
 sudo nano /etc/systemd/system/ethpill.service
@@ -46,5 +41,5 @@ With the use of --revA, you can specify which device should be fed our senior so
 ```
 Be sure to leave ETHlargement running in the background, so your NVIDIA noodle can *aldente*.
 ```
-sudo systemctl enable ethpill
+sudo systemctl status ethpill
 ```
