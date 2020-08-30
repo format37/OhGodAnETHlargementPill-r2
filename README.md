@@ -15,7 +15,7 @@ sudo ./OhGodAnETHlargementPill-r2
 ```
 sudo nano /etc/systemd/system/ethpill.service
 ```
-Paste this (change user to yours):
+Paste this:
 ```
 [Unit]
 Description=OhGodAnETHlargementPill-r2
@@ -25,7 +25,7 @@ Type=simple
 ExecStart=/opt/tabletka/OhGodAnETHlargementPill-r2
 Restart=on-failure
 
-User=alex 
+User=root 
 
 [Install]
 WantedBy=multi-user.target
