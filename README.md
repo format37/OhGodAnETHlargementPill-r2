@@ -22,7 +22,7 @@ Description=OhGodAnETHlargementPill-r2
 
 [Service]  
 Type=simple
-ExecStart=./opt/tabletka/OhGodAnETHlargementPill-r2
+ExecStart=/opt/tabletka/OhGodAnETHlargementPill-r2
 Restart=on-failure
 
 User=alex 
